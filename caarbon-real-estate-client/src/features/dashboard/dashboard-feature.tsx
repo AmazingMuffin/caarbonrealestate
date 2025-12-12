@@ -67,7 +67,7 @@ const secondary: {
 export default function DashboardFeature() {
   return (
     <div>
-      <AppHero title="CAARBON'S" subtitle="Say hi to your new Caarbons app." />
+      <AppHero title="CAARBON'S" subtitle="Say hi to your new Caarbon's app." />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {primary.map((link) => (
