@@ -19,15 +19,15 @@ const primary: {
   icon: React.ReactNode
 }[] = [
   {
-    label: 'Solana Docs',
-    href: 'https://solana.com/docs',
-    description: 'The official documentation. Your first stop for understanding the Solana ecosystem.',
+    label: 'Caarbons whitepaper',
+    href: 'https://www.caarbons.ai/pdf/CAA_WHITEPAPER%20V1.2_C.pdf',
+    description: 'The official whitepaper. Your first stop for understanding the Caarbons project.',
     icon: <BookOpen className="w-8 h-8 text-purple-400" />,
   },
   {
-    label: 'Solana Cookbook',
+    label: 'Caarbons Cookbook',
     href: 'https://solana.com/developers/cookbook/',
-    description: 'Practical examples and code snippets for common tasks when building on Solana.',
+    description: 'Practical examples and code snippets for common tasks when building on Carrbons.',
     icon: <CookingPot className="w-8 h-8 text-green-400" />,
   },
 ]
@@ -38,24 +38,24 @@ const secondary: {
   icon: React.ReactNode
 }[] = [
   {
-    label: 'Solana Faucet',
-    href: 'https://faucet.solana.com/',
+    label: 'Official Caarbons site',
+    href: ' https://www.caarbons.ai/',
+    icon: <LucideAnchor className="w-5 h-5 text-indigo-400" />,
+  },
+  {
+    label: 'Caarbons discord',
+    href: 'https://discord.gg/WENmFUwz',
     icon: <Droplets className="w-5 h-5 text-green-400" />,
   },
   {
-    label: 'Solana Stack Overflow',
-    href: 'https://solana.stackexchange.com/',
+    label: 'Caarbons Telegram',
+    href: ' https://t.me/caarbonsarmy',
     icon: <MessageCircleQuestion className="w-5 h-5 text-orange-400" />,
   },
   {
-    label: 'Wallet UI Docs',
-    href: 'https://wallet-ui.dev',
+    label: 'Caarbons on X',
+    href: 'https://x.com/caarbons',
     icon: <LucideWallet className="w-5 h-5 text-blue-400" />,
-  },
-  {
-    label: 'Anchor Docs',
-    href: 'https://www.anchor-lang.com/docs',
-    icon: <LucideAnchor className="w-5 h-5 text-indigo-400" />,
   },
   {
     label: 'Codama Repository',
@@ -67,7 +67,7 @@ const secondary: {
 export default function DashboardFeature() {
   return (
     <div>
-      <AppHero title="gm" subtitle="Say hi to your new Solana app." />
+      <AppHero title="CAARBON'S" subtitle="Say hi to your new Caarbons app." />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {primary.map((link) => (
