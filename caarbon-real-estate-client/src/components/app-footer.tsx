@@ -5,6 +5,7 @@ export function AppFooter() {
       <a href="https://github.com/solana-foundation/create-solana-dapp" target="_blank" rel="noopener noreferrer">
         create-solana-dapp
         Copyright Caarbon Foundation
+        SPO
       </a>
     </footer>
   )
