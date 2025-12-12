@@ -13,6 +13,7 @@ const links: { label: string; path: string }[] = [
   // More links...
   { label: 'Home', path: '/' },
   { label: 'Account', path: '/account' },
+  { label: 'Real estate', path: '/realestate' },
   { label: 'Caarbonrealestateclient Program', path: '/caarbonrealestateclient' },
 ]
 
