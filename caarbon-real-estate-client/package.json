@@ -1,7 +1,7 @@
 {
   "name": "caarbon-real-estate-client",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "scripts": {
     "anchor": "cd anchor && anchor",
