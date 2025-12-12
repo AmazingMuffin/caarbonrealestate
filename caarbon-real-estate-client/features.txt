@@ -1,0 +1,25 @@
+
+Idées à discuter avec Séb
+
+Côté front-end
+====================
+Un administrateur a accès à un formulaire de création de NFT représentant un bien immobilier à tokenizer
+avec les metadatas nécessaires pour décrire un investissement immobilier
+
+Une fois le NFT minté, l'administrateur peut créer des parts liées au NFT via un token sur Solana (SPL) 
+	On a par exemple NFT-01 avec 1000 SPL-01
+	Et			     NFT-02 avec 2000 SPL-02 
+	Le smart contract contient le mapping entre les nft et les parts 
+	
+On peut imaginer soit un compte sur Solana qui est compte maître pour la création des NFT 
+ou un compte multi-sig avec un nombre de wallet qui doivent obligatoirement signer pour minter le NFT
+
+
+Côté blockchain
+
+Un smart contract 
+- permet à l'administrateur de minter un NFT selon les informations fournies
+- retourne la liste des NFT existants
+- retourne toutes les metadata d'un NFT en particulier
+- retourne le nombre de parts liées à un NFT
+
